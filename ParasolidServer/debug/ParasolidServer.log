@@ -1,0 +1,70 @@
+﻿Построение начато 23.04.2015 13:57:27.
+     1>Проект "D:\ClientServerPar\ParasolidServer\ParasolidServer.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "debug\ParasolidServer.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       CustomBuild:
+         MOC psclient.h
+         MOC psserver.h
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\ClientServerPar\ParasolidServer\Include /IC:\Qt5\5.4\msvc2012_opengl\include /IC:\Qt5\5.4\msvc2012_opengl\include\QtWidgets /IC:\Qt5\5.4\msvc2012_opengl\include\QtGui /IC:\Qt5\5.4\msvc2012_opengl\include\QtNetwork /IC:\Qt5\5.4\msvc2012_opengl\include\QtCore /Idebug /I"C:\Qt5\5.4\msvc2012_opengl\mkspecs\win32-msvc2012" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"debug\\" /Fd"debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 frustrum.cpp frustrum_delta.cpp Session.cpp main.cpp debug\moc_psclient.cpp debug\moc_psserver.cpp psclient.cpp psserver.cpp debug\moc_psclient.cpp debug\moc_psserver.cpp
+         frustrum.cpp
+     1>frustrum.cpp(709): warning C4100: pd2len: неиспользованный формальный параметр
+     1>frustrum.cpp(709): warning C4100: pd2hdr: неиспользованный формальный параметр
+     1>frustrum.cpp(1419): warning C4100: guise: неиспользованный формальный параметр
+         frustrum_delta.cpp
+         Session.cpp
+     1>Session.cpp(167): warning C4100: nBytes: неиспользованный формальный параметр
+         main.cpp
+         moc_psclient.cpp
+         moc_psserver.cpp
+         psclient.cpp
+         psserver.cpp
+     1>psserver.cpp(61): warning C4189: arr: локальная переменная инициализирована, но не использована
+     1>psserver.cpp(74): warning C4100: users: неиспользованный формальный параметр
+     1>psserver.cpp(79): warning C4100: users: неиспользованный формальный параметр
+     1>psserver.cpp(112): warning C4100: client: неиспользованный формальный параметр
+     1>psserver.cpp(117): warning C4100: users: неиспользованный формальный параметр
+     1>psserver.cpp(194): warning C4189: err2: локальная переменная инициализирована, но не использована
+     1>psserver.cpp(151): warning C4101: point: неиспользованная локальная переменная
+     1>psserver.cpp(320): warning C4189: count: локальная переменная инициализирована, но не использована
+     1>psserver.cpp(163): warning C4101: vert: неиспользованная локальная переменная
+     1>psserver.cpp(167): warning C4101: point_sff: неиспользованная локальная переменная
+     1>psserver.cpp(162): warning C4101: class_curve: неиспользованная локальная переменная
+     1>psserver.cpp(277): warning C4189: faceList: локальная переменная инициализирована, но не использована
+     1>psserver.cpp(164): warning C4101: interval: неиспользованная локальная переменная
+     1>psserver.cpp(138): warning C4189: n_parts: локальная переменная инициализирована, но не использована
+     1>psserver.cpp(170): warning C4101: n_face: неиспользованная локальная переменная
+     1>psserver.cpp(169): warning C4101: face: неиспользованная локальная переменная
+     1>psserver.cpp(152): warning C4101: geom: неиспользованная локальная переменная
+     1>psserver.cpp(318): warning C4101: vec_p: неиспользованная локальная переменная
+     1>psserver.cpp(165): warning C4101: l: неиспользованная локальная переменная
+     1>psserver.cpp(321): warning C4101: point_sp: неиспользованная локальная переменная
+     1>psserver.cpp(166): warning C4101: point_s: неиспользованная локальная переменная
+     1>psserver.cpp(319): warning C4101: p_p: неиспользованная локальная переменная
+     1>psserver.cpp(150): warning C4101: curve: неиспользованная локальная переменная
+     1>psserver.cpp(168): warning C4101: point_sff2: неиспользованная локальная переменная
+         moc_psclient.cpp
+         moc_psserver.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\ParasolidServer.exe" /NOLOGO /LIBPATH:C:\Qt5\5.4\msvc2012_opengl\lib D:\ClientServerPar\ParasolidServer\Lib\pskernel.lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\Qt5\5.4\msvc2012_opengl\lib\qtmaind.lib shell32.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5Widgetsd.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5Guid.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5Networkd.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\ParasolidServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" debug\frustrum.obj
+         debug\frustrum_delta.obj
+         debug\Session.obj
+         debug\main.obj
+         debug\moc_psclient.obj
+         debug\moc_psserver.obj
+         debug\psclient.obj
+         debug\psserver.obj
+         debug\moc_psclient.obj
+         debug\moc_psserver.obj
+     1>debug\moc_psclient.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+     1>debug\moc_psserver.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+         ParasolidServer.vcxproj -> D:\ClientServerPar\ParasolidServer\debug\ParasolidServer.exe
+       FinalizeBuildStatus:
+         Файл "debug\ParasolidServer.unsuccessfulbuild" удаляется.
+         Обращение к "debug\ParasolidServer.lastbuildstate".
+     1>Построение проекта "D:\ClientServerPar\ParasolidServer\ParasolidServer.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:08.94

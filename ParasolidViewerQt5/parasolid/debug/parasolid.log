@@ -1,0 +1,45 @@
+﻿Построение начато 23.04.2015 14:28:31.
+     1>Проект "D:\ClientServerPar\ParasolidViewerQt5\parasolid\parasolid.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "debug\parasolid.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       CustomBuild:
+         Для всех выходных данных обновления не требуется.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\ClientServerPar\ParasolidViewerQt5\Include /I..\Include /IC:\Qt5\5.4\msvc2012_opengl\include /IC:\Qt5\5.4\msvc2012_opengl\include\QtOpenGL /IC:\Qt5\5.4\msvc2012_opengl\include\QtWidgets /IC:\Qt5\5.4\msvc2012_opengl\include\QtGui /IC:\Qt5\5.4\msvc2012_opengl\include\QtNetwork /IC:\Qt5\5.4\msvc2012_opengl\include\QtCore /Idebug /I. /I"C:\Qt5\5.4\msvc2012_opengl\mkspecs\win32-msvc2012" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"debug\\" /Fd"debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 glwidget.cpp
+         glwidget.cpp
+     1>glwidget.cpp(12): warning C4305: инициализация: усечение из "double" к "const float"
+     1>glwidget.cpp(116): warning C4100: pe: неиспользованный формальный параметр
+     1>glwidget.cpp(233): warning C4305: -=: усечение из "double" к "GLfloat"
+     1>glwidget.cpp(238): warning C4305: +=: усечение из "double" к "GLfloat"
+     1>glwidget.cpp(283): warning C4101: vec_p: неиспользованная локальная переменная
+     1>glwidget.cpp(288): warning C4189: ss: локальная переменная инициализирована, но не использована
+     1>glwidget.cpp(284): warning C4101: p_p: неиспользованная локальная переменная
+     1>glwidget.cpp(350): warning C4101: class_curve: неиспользованная локальная переменная
+     1>glwidget.cpp(352): warning C4101: interval: неиспользованная локальная переменная
+     1>glwidget.cpp(357): warning C4101: n_face: неиспользованная локальная переменная
+     1>glwidget.cpp(356): warning C4101: face: неиспользованная локальная переменная
+     1>glwidget.cpp(341): warning C4101: geom: неиспользованная локальная переменная
+     1>glwidget.cpp(338): warning C4189: part: локальная переменная инициализирована, но не использована
+     1>glwidget.cpp(353): warning C4101: l: неиспользованная локальная переменная
+     1>glwidget.cpp(339): warning C4101: curve: неиспользованная локальная переменная
+     1>glwidget.cpp(374): warning C4101: num_vert: неиспользованная локальная переменная
+     1>glwidget.cpp(405): warning C4305: инициализация: усечение из "double" к "float"
+     1>glwidget.cpp(471): warning C4189: key: локальная переменная инициализирована, но не использована
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\parasolid.exe" /NOLOGO /LIBPATH:C:\Qt5\5.4\msvc2012_opengl\lib /LIBPATH:D:\ClientServerPar\ParasolidViewerQt5\Lib D:\ClientServerPar\ParasolidViewerQt5\Lib\pskernel.lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\Qt5\5.4\msvc2012_opengl\lib\qtmaind.lib shell32.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5OpenGLd.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5Widgetsd.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5Guid.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5Networkd.lib C:\Qt5\5.4\msvc2012_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\parasolid.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" debug\Client.obj
+         debug\Session.obj
+         debug\frustrum.obj
+         debug\frustrum_delta.obj
+         debug\glwidget.obj
+         debug\main.obj
+         debug\mainwindow.obj
+         debug\moc_mainwindow.obj
+         parasolid.vcxproj -> D:\ClientServerPar\ParasolidViewerQt5\parasolid\debug\parasolid.exe
+       FinalizeBuildStatus:
+         Файл "debug\parasolid.unsuccessfulbuild" удаляется.
+         Обращение к "debug\parasolid.lastbuildstate".
+     1>Построение проекта "D:\ClientServerPar\ParasolidViewerQt5\parasolid\parasolid.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.78
